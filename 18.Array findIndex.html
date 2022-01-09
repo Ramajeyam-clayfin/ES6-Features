@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       //18.Array findIndex()
+        // returns the index of the first array element that passes a test function.
+
+        let numbers = [4, 9, 16, 25, 29];
+
+        function index(value, index, array) //function takes 3 arguments:
+        {
+        return value > 18; //return first index > 18.
+        }
+
+        console.log("First number over 18 has index " + numbers.findIndex(index)); 
+
+  </script>
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       //9.SYMBOL
+        //primitive datatype,
+        // a unique "hidden" identifier that no other code can accidentally access.
+        
+        let person = {
+            firstName: "John",
+            lastName: "Doe",
+            age: 50,
+        };
+        let id = Symbol('id'); // symbol declaration
+        person[id] = 140353; // symbol initialazation
+        console.log(person[id]);
+        console.log(person.id);
+
+  </script>
+    
+</body>
+</html>

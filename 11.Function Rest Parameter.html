@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       //11.FUNCTION REST PARAMETER
+        //The rest parameter (...) allows a function to treat an indefinite number of arguments as an array:
+
+        function sum(...args) 
+        {
+        let add = 0;
+        for (let arg of args) add += arg;
+        return add;
+        }
+        console.log(sum(4, 9, 1, 5, 2, 10, 6, 7)); //indefinite number of arguments
+
+
+  </script>
+    
+</body>
+</html>
